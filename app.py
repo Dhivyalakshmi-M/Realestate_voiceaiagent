@@ -26,7 +26,7 @@ client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
 app = FastAPI()
 
 # Load properties CSV
-properties_df = pd.read_csv("C:/Users/varma/Desktop/voice/dubai_properties_500.csv")
+properties_df = pd.read_csv("dubai_properties_500.csv")
 
 # Simple property search function
 def search_properties(query):
